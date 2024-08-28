@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-niryo-one" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_niryo_one-{{ version }}.tar.gz
-  sha256: 312fe3722fcceadb9ba2419087178d8de5223abb0c2c04bd2bfd49969482f772
+  sha256: 65ae8ec54321cdfdbc01b5e3d93731d8656e34cd4737cd39b5775819097bb8b5
 
 build:
   noarch: python
